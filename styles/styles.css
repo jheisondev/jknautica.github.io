@@ -1,0 +1,49 @@
+@import url(//db.onlinewebfonts.com/c/b26b20369adfef2b3d65d266e0625fe2?family=Gabriola);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {  
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(90deg,#fff, #bef8ff, #57e3d9);
+
+}
+.titleDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titleDescription .logo {
+  width: 400px;
+  height: 150px;
+}
+
+.titleDescription h1 {
+  font-size: 10vw;
+  font-family: Gabriola, sans-serif;
+  font-weight: 400;
+  margin-bottom: -30px;
+}
+.titleDescription h4 {
+  font-size: 3vw;
+  font-family: Gabriola, sans-serif;
+  font-weight: 300;
+}
+.titleDescription .logoMarcas {
+  max-width: 400px;
+}
+
+#sliders {
+  max-width: 400px;
+}
+#sliders img {
+  max-width: 100%;
+}
